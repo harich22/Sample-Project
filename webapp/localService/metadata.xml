@@ -1,0 +1,21 @@
+<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData" Version="1.0">
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="ZSIFY_EMP_SRV" xml:lang="en" sap:schema-version="1">
+			<EntityType Name="zemp" sap:content-version="1">
+				<Key><PropertyRef Name="Empid"/></Key><Property Name="Empid" Type="Edm.String" Nullable="false" MaxLength="15" sap:unicode="false" sap:label="Employee Id" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Email" Type="Edm.String" Nullable="false" MaxLength="255" sap:unicode="false" sap:label="Employee Mail ID"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Mobile" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Employee Mobile numb"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Fname" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:label="First name" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Lanme" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:label="Last name" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Gender" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Gender" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="SerLine" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Service Line" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Tech" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:label="techknowledge" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ModuleNam" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:label="Module" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Exp" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:label="Experiance" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Hobbies" Type="Edm.String" Nullable="false" MaxLength="255" sap:unicode="false" sap:label="Hobbies" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/></EntityType>
+			<EntityContainer Name="ZSIFY_EMP_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx"><EntitySet Name="zempSet" EntityType="ZSIFY_EMP_SRV.zemp" sap:creatable="false" sap:updatable="false" sap:deletable="false"
+				sap:pageable="false" sap:content-version="1"/></EntityContainer><atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="./sap/ZSIFY_EMP_SRV/$metadata"/><atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="latest-version" href="./sap/ZSIFY_EMP_SRV/$metadata"/></Schema>
+	</edmx:DataServices>
+</edmx:Edmx>
